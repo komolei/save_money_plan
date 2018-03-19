@@ -1,0 +1,47 @@
+
+  <view class="save_money_plan" data-v-FvZdgrep="">
+    <!-- <view class="user_info">
+          <image src="" />
+        </view> -->
+    <view class="toast" animation="{{animationData}}" data-v-FvZdgrep="">{{toast}}</view>
+    <view class="unfinished_plans" data-v-FvZdgrep="">
+      <view data-v-FvZdgrep="">人生进行时</view>
+      <view wx:for="{{user.unfinishedPlans}}" class="show_plans" wx:key="index" data-v-FvZdgrep="">
+        <view class="plans_item" style="background:url({{item.img}})" data-v-FvZdgrep="">
+          <view class="plans_item_bottom" data-v-FvZdgrep="">
+            <view class="plans_item_bottom_box" data-v-FvZdgrep="">
+              <view data-v-FvZdgrep="">
+                {{item.target }}
+              </view>
+              <view data-v-FvZdgrep="">
+                ￥{{item.saved_money}}/{{item.target_money}}
+              </view>
+            </view>
+            <progress percent="{{item.num}}" stroke-width="8" show-info="show-info" active="active" backgroundColor="#5ba9d0" activeColor="#fff" data-v-FvZdgrep=""/>
+          </view>
+        </view>
+      </view>
+      <view class="new_plan" data-v-FvZdgrep="">
+        <view bindtap="toCard" data-wcf-a="new_plan" data-v-FvZdgrep="">+ 新建计划</view>
+      </view>
+    </view>
+    <view class="line" wx:if="{{user.finishedPlans.length>0}}" data-v-FvZdgrep=""/>
+    <view class="finished_plans" data-v-FvZdgrep="">
+      <view data-v-FvZdgrep="">目标达成</view>
+      <view wx:for="{{user.finishedPlans}}" class="show_plans" wx:key="index" data-v-FvZdgrep="">
+        <view class="plans_item" style="background:url({{item.img}})" data-v-FvZdgrep="">
+          <view class="plans_item_bottom" data-v-FvZdgrep="">
+            <view class="plans_item_bottom_box" data-v-FvZdgrep="">
+              <view data-v-FvZdgrep="">
+                {{item.target }}
+              </view>
+              <view data-v-FvZdgrep="">
+                ￥{{item.target_money}}
+              </view>
+            </view>
+            <progress percent="{{item.num}}" stroke-width="8" show-info="show-info" active="active" backgroundColor="#5ba9d0" activeColor="#fff" data-v-FvZdgrep=""/>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>

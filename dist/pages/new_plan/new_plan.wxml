@@ -1,0 +1,32 @@
+
+  <view class="new_plan" data-v-lcAvDMXf="">
+    <view class="new_plan_top" data-v-lcAvDMXf="">
+      <view class="img_box" style="background:url({{imgUrl}})" data-v-lcAvDMXf="">
+        <icon type="waiting" size="20" data-v-lcAvDMXf=""/>
+        <text data-v-lcAvDMXf="">目标贴(可更换)</text>
+      </view>
+      <form action="post" bindsubmit="formSubmit" data-v-lcAvDMXf="">
+        <view data-v-lcAvDMXf="">
+          <text data-v-lcAvDMXf="">目标：</text>
+          <input type="text" placeholder="输入目标" data-v-lcAvDMXf=""/>
+        </view>
+        <view data-v-lcAvDMXf="">
+          <text data-v-lcAvDMXf="">财富:</text>
+          <input type="text" placeholder="输入金额" data-v-lcAvDMXf=""/>
+        </view>
+        <view data-v-lcAvDMXf="">
+          <text data-v-lcAvDMXf="">选择方式</text>
+          <radio-group name="radio-group" data-v-lcAvDMXf="">
+            <label data-v-lcAvDMXf=""><radio value="month" data-v-lcAvDMXf=""/>每月</label>
+            <label data-v-lcAvDMXf=""><radio value="week" data-v-lcAvDMXf=""/>每周</label>
+            <label data-v-lcAvDMXf=""><radio value="day" data-v-lcAvDMXf=""/>每天</label>
+          </radio-group>
+        </view>
+        <view data-v-lcAvDMXf="">
+          <text data-v-lcAvDMXf="">每次需要存放的金额</text>
+          <text data-v-lcAvDMXf="">￥{{computedMoney}}</text>
+        </view>
+        <button formType="submit" data-v-lcAvDMXf="">签订小目标</button>
+      </form>
+    </view>
+  </view>

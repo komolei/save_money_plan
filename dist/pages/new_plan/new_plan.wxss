@@ -1,0 +1,77 @@
+page {
+    background: #fefefe
+}
+.new_plan[data-v-lcAvDMXf] {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 750rpx
+}
+.new_plan_top[data-v-lcAvDMXf] {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap
+}
+.img_box[data-v-lcAvDMXf] {
+    height: 300rpx;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20rpx;
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #fff
+}
+.img_box text {
+    padding: 0 10rpx
+}
+form {
+    box-sizing: border-box;
+    padding: 0 20rpx;
+    margin-top: 20rpx;
+    background: #fff;
+    font-size: 24rpx;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center
+}
+form view {
+    width: 710rpx;
+    padding: 10rpx 0;
+    height: 70rpx;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1rpx solid #ccc
+}
+form :nth-last-child(2) {
+    border-bottom: none
+}
+form text {
+    font-weight: 600
+}
+form input {
+    display: inline-flex;
+    width: 400rpx;
+    text-align: right
+}
+label {
+    padding: 0 10rpx
+}
+ridio {
+    width: 24rpx;
+    height: 24rpx
+}
+button {
+    height: 80rpx;
+    width: 250rpx;
+    line-height: 80rpx;
+    border: 2rpx solid #fe6;
+    background: #fefefe;
+    margin-top: 20rpx;
+    font-size: 28rpx
+}

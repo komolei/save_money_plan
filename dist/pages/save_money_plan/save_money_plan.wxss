@@ -1,0 +1,111 @@
+page {
+    background: #fefefe
+}
+.save_money_plan[data-v-FvZdgrep] {
+    display: flex;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+    width: 750rpx;
+    padding: 0 30rpx
+}
+.user_info[data-v-FvZdgrep] {
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 50%
+}
+.user_info > image {
+    width: 100%;
+    height: 100%
+}
+.unfinished_plans > view:first-child {
+    font-size: 30rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    padding-bottom: 10rpx
+}
+.show_plans[data-v-FvZdgrep] {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center
+}
+.plans_item[data-v-FvZdgrep] {
+    height: 200rpx;
+    background-size: contain;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    padding-bottom: 10rpx;
+    border-radius: 10rpx
+}
+.plans_item_bottom_box[data-v-FvZdgrep] {
+    color: #fff;
+    font-size: 24rpx;
+    font-weight: 600rpx;
+    padding: 0 20rpx;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end
+}
+.plans_item_bottom_box > view:first-child {
+    width: 500rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 30rpx
+}
+.plans_item_bottom_box > view:last-child {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 150rpx;
+    text-align: right
+}
+progress {
+    margin-top: 20rpx;
+    box-sizing: border-box;
+    padding: 0 20rpx;
+    border-radius: 8rpx;
+    color: #fb7171
+}
+.toast[data-v-FvZdgrep] {
+    color: #333;
+    font-size: 28rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    font-weight: 600;
+    margin: 20rpx 0
+}
+.new_plan[data-v-FvZdgrep] {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 20rpx
+}
+.new_plan > view {
+    font-size: 28rpx;
+    width: 278rpx;
+    height: 78rpx;
+    border: 2rpx solid #ffcd58;
+    background: #ffcd58;
+    box-shadow: 0 0 0 10 #ccc;
+    border-radius: 8rpx;
+    line-height: 78rpx;
+    text-align: center
+}
+.line[data-v-FvZdgrep] {
+    margin: 30rpx 0 20rpx 0;
+    border: 1rpx solid #ccc
+}
+.finished_plans > view:first-child {
+    font-size: 30rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    padding-bottom: 10rpx
+}
